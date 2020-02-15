@@ -32,6 +32,7 @@ module.exports = {
       { extensions: ['.jxs', '.js'] }
     ],
     'import/prefer-default-export': 'off',
+    "react/state-in-constructor": [2, 'never'],
     'jsx-a11y/control-has-associated-label': 'off'
   },
 };
