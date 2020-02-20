@@ -23,7 +23,8 @@ module.exports = {
   },
   plugins: [
     'react',
-    'prettier'
+    'prettier',
+    'react-hooks'
   ],
   rules: {
     'prettier/prettier': 'error',
@@ -32,9 +33,11 @@ module.exports = {
       { extensions: ['.jxs', '.js'] }
     ],
     'import/prefer-default-export': 'off',
-    "react/state-in-constructor": [2, 'never'],
-    'jsx-a11y/control-has-associated-label': 'off',
     'no-param-reassign': 'off',
-    'no-console': ["error", { allow: ["tron"] }]
+    'no-console': ["error", { allow: ["tron"] }],
+    'jsx-a11y/control-has-associated-label': 'off',
+
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };
