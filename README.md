@@ -1,3 +1,3 @@
-# GoStack-Rocketshoes-React
+# GoStack-Rocketshoes-ReactJS
 
-E-commerce to buy your favorite shoes
+E-Commerce fictício para venda de tênis, utilizando todo o poder do Redux.
